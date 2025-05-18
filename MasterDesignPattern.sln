@@ -1,10 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8315CB79-E14B-45E4-848B-39C26DE2BC3F}"
+	ProjectSection(SolutionItems) = preProject
+		src\test.txt = src\test.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AF3C926C-F680-426E-B04C-D91119EC8A86}"
+	ProjectSection(SolutionItems) = preProject
+		tests\1.txt = tests\1.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecorationDesignPattern", "DecorationDesignPattern", "{4848D7EF-D1CF-4E3B-903C-891CDED12B95}"
+	ProjectSection(SolutionItems) = preProject
+		src\DecorationDesignPattern\2 = src\DecorationDesignPattern\2
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
