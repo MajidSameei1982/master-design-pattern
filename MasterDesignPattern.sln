@@ -5,11 +5,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AF3C926C-F680-426E-B04C-D91119EC8A86}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecorationDesignPattern", "DecorationDesignPattern", "{4848D7EF-D1CF-4E3B-903C-891CDED12B95}"
-	ProjectSection(SolutionItems) = preProject
-		src\DecorationDesignPattern\DECORATION.md = src\DecorationDesignPattern\DECORATION.md
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoration", "Decoration\Decoration.csproj", "{ECD28034-03E5-43B1-96F4-33FC239EE5CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoration", "src\DecorationDesignPattern\Decoration\Decoration.csproj", "{B1C0E2E5-2883-4E92-B200-4280D51529EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,12 +15,12 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4848D7EF-D1CF-4E3B-903C-891CDED12B95} = {8315CB79-E14B-45E4-848B-39C26DE2BC3F}
-		{ECD28034-03E5-43B1-96F4-33FC239EE5CE} = {4848D7EF-D1CF-4E3B-903C-891CDED12B95}
+		{B1C0E2E5-2883-4E92-B200-4280D51529EE} = {4848D7EF-D1CF-4E3B-903C-891CDED12B95}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECD28034-03E5-43B1-96F4-33FC239EE5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECD28034-03E5-43B1-96F4-33FC239EE5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECD28034-03E5-43B1-96F4-33FC239EE5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECD28034-03E5-43B1-96F4-33FC239EE5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
