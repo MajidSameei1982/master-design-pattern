@@ -5,6 +5,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AF3C926C-F680-426E-B04C-D91119EC8A86}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecorationDesignPattern", "DecorationDesignPattern", "{4848D7EF-D1CF-4E3B-903C-891CDED12B95}"
+	ProjectSection(SolutionItems) = preProject
+		src\DecorationDesignPattern\DECORATION.md = src\DecorationDesignPattern\DECORATION.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoration", "Decoration\Decoration.csproj", "{ECD28034-03E5-43B1-96F4-33FC239EE5CE}"
 EndProject
