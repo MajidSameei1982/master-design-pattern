@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecorationDesignPattern", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoration", "src\DecorationDesignPattern\Decoration\Decoration.csproj", "{B1C0E2E5-2883-4E92-B200-4280D51529EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSpec", "tests\TestSpec\TestSpec.csproj", "{1C4E3588-C5BD-4841-85F6-BC86D5FE56D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,11 +18,16 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4848D7EF-D1CF-4E3B-903C-891CDED12B95} = {8315CB79-E14B-45E4-848B-39C26DE2BC3F}
 		{B1C0E2E5-2883-4E92-B200-4280D51529EE} = {4848D7EF-D1CF-4E3B-903C-891CDED12B95}
+		{1C4E3588-C5BD-4841-85F6-BC86D5FE56D1} = {AF3C926C-F680-426E-B04C-D91119EC8A86}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1C0E2E5-2883-4E92-B200-4280D51529EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4E3588-C5BD-4841-85F6-BC86D5FE56D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4E3588-C5BD-4841-85F6-BC86D5FE56D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4E3588-C5BD-4841-85F6-BC86D5FE56D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4E3588-C5BD-4841-85F6-BC86D5FE56D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
